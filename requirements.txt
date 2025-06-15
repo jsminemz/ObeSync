@@ -1,6 +1,6 @@
-pip install --upgrade pip
+pip==25.0.1
 streamlit
 pandas
 numpy
 tensorflow
-keras
+
