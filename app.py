@@ -211,18 +211,17 @@ with st.container():
 
                         with result.container():
                             if output == 0:
-                                st.markdown("<h1 style='text-align: center;'>🙆‍♂️ 😁 ✅</h1>", unsafe_allow_html=True)
-                                st.markdown("<div style='text-align: center; font-weight: bold;'>NORMAL WEIGHT ✅</div>", unsafe_allow_html=True)
+                                st.write('# 🙆🏻🤗✅')
+                                st.info('**NORMAL WEIGHT ✅**')
                             elif output == 1:
-                                st.markdown("<h1 style='text-align: center;'>🙅‍♂️ 😔 👎</h1>", unsafe_allow_html=True)
-                                st.markdown("<div style='text-align: center; font-weight: bold;'>UNDER WEIGHT 👎</div>", unsafe_allow_html=True)
+                                st.write('# 🤦🏻😔👎🏻')
+                                st.info('**UNDER WEIGHT 👎🏻**')
                             elif output == 2:
-                                st.markdown("<h1 style='text-align: center;'>🙆‍♂️ 😳 ❌</h1>", unsafe_allow_html=True)
-                                st.markdown("<div style='text-align: center; font-weight: bold;'>OVER WEIGHT ❌</div>", unsafe_allow_html=True)
+                                st.write('# 🙅🏻😲❌')
+                                st.info('**OVER WEIGHT ❌**')
                             else:
-                                st.markdown("<h1 style='text-align: center;'>🙇‍♂️ 😬 ❎</h1>", unsafe_allow_html=True)
-                                st.markdown("<div style='text-align: center; font-weight: bold;'>OBESED ❎</div>", unsafe_allow_html=True)
-
+                                st.write('# 🫄🏻🙄❎')
+                                st.info('**OBESED ❎**')
 
                     except:
                         st.error("❌ Terjadi kesalahan saat menghitung atau memprediksi.")
