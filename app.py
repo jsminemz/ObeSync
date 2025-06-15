@@ -77,7 +77,7 @@ st.markdown("""
 
 # Container dan tab-tabnya
 with st.container():
-    tab1, tab2, tab3, tab4 = st.tabs(["Tentang Obesync", "Cara Menggunakan", "Hasil & Saran", "Kenapa Ini Penting"])
+    tab1, tab2, tab3 = st.tabs(["Tentang Obesync", "Cara Menggunakan", "Kenapa Ini Penting"])
 
     with tab1:
         st.markdown("""
@@ -109,19 +109,6 @@ Hasilnya akan membantu Anda memahami kondisi tubuh saat ini dan mengambil langka
         """, unsafe_allow_html=True)
 
     with tab3:
-        st.markdown("""
-<div style="text-align: center;">
-    <h3><em>Hasil & Rekomendasi</em></h3>
-</div>
-
-Kategori hasil prediksi:
-- Normal  
-- Underweight
-- Overweight  
-- Obesitas (Level I, II, III) 
-        """, unsafe_allow_html=True)
-
-    with tab4:
         st.markdown("""
 <div style="text-align: center;">
     <h3><em>Mengapa Ini Penting?</em></h3>
