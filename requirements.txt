@@ -3,5 +3,4 @@ keras
 pandas
 streamlit
 numpy
-tensorflow==2.12.0
-
+tensorflow
