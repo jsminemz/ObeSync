@@ -3,4 +3,3 @@ keras
 pandas
 streamlit
 numpy
-tensorflow
