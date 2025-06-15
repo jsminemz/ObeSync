@@ -1,6 +1,7 @@
 pip==25.1.1
-tensorflow
 keras
 pandas
 streamlit
 numpy
+tensorflow==2.19.0
+tensorflow-io-gcs-filesystem==0.31.0
