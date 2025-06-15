@@ -1,7 +1,6 @@
-pip==3.11.9
-tensorflow==2.15.0
-streamlit==1.35.0
-pandas
-openpyxl
+pip==25.1.1
+tensorflow
 keras
+pandas
+streamlit
 numpy
