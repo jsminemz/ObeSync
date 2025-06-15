@@ -118,7 +118,7 @@ Kategori hasil prediksi:
 - Normal  
 - Underweight
 - Overweight  
-- Obesitas (Level I, II, III) 
+- Obesitas
         """, unsafe_allow_html=True)
 
     with tab4:
