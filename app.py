@@ -1,6 +1,5 @@
 # setup
 import pandas as pd
-import tensorflow as tf
 import keras
 import streamlit as st
 import numpy as np
